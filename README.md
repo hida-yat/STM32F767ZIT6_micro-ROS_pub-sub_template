@@ -6,7 +6,7 @@
 1. このテンプレートを STM32プロジェクトを保存しているディレクトリにcloneする。  
    例）  
    `` cd ~/STM32CubeIDE/workspace_1.15.0/ ``  
-   `` git clone https://github.com/hida-yat/STM32f767ZIT6_micro-ROS_pub-sub_template/ ``
+   `` git clone https://github.com/hida-yat/STM32f767ZIT6_micro-ROS_pub-sub_template.git ``
 2. CubeIDE内のProject Explorer上で右クリックでこのテンプレートをCopy, Pasteを実行し、新しいプロジェクト名でプロジェクトを新規作成する。
 3. 新規作成したプロジェクトの中の ``micro-ROS_template.ioc`` を ``[新規作成したプロジェクト名].ioc`` にRenameする。
 4. Run >> Debug Configurationを開き、Main / C/C++ Aplication の項目について、 ``Debug/micro-ROS_template.elf`` を参照するようになっている。そのため、「Browse…」ボタンを押し起動したファイラーで、プロジェクトのディレクトリまで移動し、Debugディレクトリの ``[新規作成したプロジェクト名].elf`` を選択し、ビルドできることを確認する。
