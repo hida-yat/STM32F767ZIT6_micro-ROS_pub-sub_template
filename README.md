@@ -1,4 +1,4 @@
-# STM32f767ZIT6_micro-ROS_pub-sub_template
+# STM32F767ZIT6_micro-ROS_pub-sub_template
  An STM32 project example using micro-ROS with the STM32F767ZIT6  
 このプロジェクトは、STM32でmicro-ROSを使用する際の新規プロジェクト作成時に必要である煩雑な初期設定を簡略化するためのテンプレートです。このテンプレートをコピペして使用することで、面倒な初期設定をスキップし、STM32プロジェクト with micro-ROS を新規作成できます。
 
